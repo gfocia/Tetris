@@ -78,7 +78,7 @@ Computes a reward signal for learning based on:
 ## How to Run
 
 ```bash
-java
+java -cp "./lib/*:." edu.bu.tetris.Main -q src.pas.tetris.agents.TetrisQAgent | tee my_logfile.log 
 
 
 
