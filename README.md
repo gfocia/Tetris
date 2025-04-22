@@ -2,6 +2,7 @@
 
 This repository contains an implementation of a Q-learning based Tetris agent, TetrisQAgent.java, designed to learn and play the game of Tetris using reinforcement learning. This agent is built within a custom Tetris framework provided by Boston University (edu.bu.tetris).
 
+![Tetris](georginafocia/desktop/tetris.jpg)
 # Overview 
 
 TetrisQAgent extends QAgent, and implements a Q-learning algorithm with a neural network as the Q-function approximator. It interacts with the game environment, extracts features from the board state, predicts Q-values for potential moves, and learns from experience using a customizable reward signal.
